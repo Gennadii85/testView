@@ -1,5 +1,7 @@
 import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/presentation/cubit/bottom_cubit/bottom_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class Frame19 extends StatelessWidget {
   const Frame19({super.key});
@@ -14,12 +16,16 @@ class Frame19 extends StatelessWidget {
           children: [
             SizedBox(
               height: 30,
-              child: Text(
-                Variables.nameProfile,
-                style: const TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.w600,
-                ),
+              child: BlocBuilder<BottomCubit, BottomState>(
+                builder: (context, state) {
+                  return Text(
+                    Variables.nameProfile,
+                    style: const TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  );
+                },
               ),
             ),
           ],

@@ -1,7 +1,9 @@
 import 'package:badges/badges.dart';
 import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/presentation/cubit/bottom_cubit/bottom_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ImageAvatar extends StatelessWidget {
   const ImageAvatar({super.key});
@@ -39,7 +41,7 @@ class ImageAvatar extends StatelessWidget {
               style: IconButton.styleFrom(
                 backgroundColor: Colors.white,
               ),
-              onPressed: () {},
+              onPressed: () => context.read<BottomCubit>().rename(),
               icon: Icon(
                 Icons.edit_outlined,
                 color: Variables.budgeColor,

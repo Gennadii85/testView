@@ -1,6 +1,8 @@
 import 'package:dashboard/common/variables.dart';
 import 'package:dashboard/pages/page_1.dart';
+import 'package:dashboard/presentation/cubit/bottom_cubit/bottom_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +22,10 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const Dashboard(),
+      home: BlocProvider(
+        create: (context) => BottomCubit(),
+        child: const Dashboard(),
+      ),
     );
   }
 }
