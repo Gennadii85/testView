@@ -41,28 +41,5 @@ class JobQuotationButtonModel extends StatelessWidget {
         ),
       ),
     );
-
-    // Container(
-    //   height: 40,
-    //   decoration: BoxDecoration(
-    //     gradient: gradientColor,
-    //     borderRadius: BorderRadius.circular(8),
-    //   ),
-    //   child: ElevatedButton(
-    //     style: ElevatedButton.styleFrom(
-    //       backgroundColor: Colors.transparent,
-    //       shadowColor: Colors.transparent,
-    //     ),
-    //     onPressed: () {},
-    //     child: Text(
-    //       text,
-    //       style: TextStyle(
-    //         color: textColor,
-    //         fontSize: 14,
-    //         fontWeight: FontWeight.w500,
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 }
