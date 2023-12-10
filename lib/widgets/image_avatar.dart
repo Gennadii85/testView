@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// from pull request
 class ImageAvatar extends StatelessWidget {
   const ImageAvatar({super.key});
 

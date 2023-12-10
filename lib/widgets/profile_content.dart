@@ -3,6 +3,7 @@ import 'package:dashboard/widgets/navigation.dart';
 import 'package:dashboard/widgets/recent_files.dart';
 import 'package:flutter/material.dart';
 
+// from pull request
 class ProfileContent extends StatelessWidget {
   const ProfileContent({super.key});
 

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:dashboard/common/variables.dart';
 import 'package:dashboard/models/job_quotation_button_model.dart';
 
+// from pull request
 class JobQuotationCardsModel extends StatelessWidget {
   const JobQuotationCardsModel({
     Key? key,

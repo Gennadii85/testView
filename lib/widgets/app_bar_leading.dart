@@ -3,6 +3,7 @@ import 'package:dashboard/common/variables.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 
+// from pull request
 class AppBarLeading extends StatelessWidget {
   const AppBarLeading({super.key});
 

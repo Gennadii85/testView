@@ -1,6 +1,7 @@
 import 'package:dashboard/common/variables.dart';
 import 'package:flutter/material.dart';
 
+// from pull request
 class AppBarTitle extends StatelessWidget {
   const AppBarTitle({super.key});
 

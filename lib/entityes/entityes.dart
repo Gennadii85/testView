@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// from pull request
 class EntityTextStile extends TextStyle {
   const EntityTextStile({
     required this.entitySize,

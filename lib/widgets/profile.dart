@@ -3,6 +3,7 @@ import 'package:dashboard/widgets/frame_19.dart';
 import 'package:dashboard/widgets/image_avatar.dart';
 import 'package:flutter/material.dart';
 
+// from pull request
 class Profile extends StatelessWidget {
   const Profile({super.key});
 

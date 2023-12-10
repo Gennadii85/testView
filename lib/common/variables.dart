@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+// from pull request
 class Variables {
   static Color themeColor = const Color(0xffE8F8FF);
   static String appBarTitle = 'Dashboard';

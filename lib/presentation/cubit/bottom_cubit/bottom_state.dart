@@ -1,5 +1,6 @@
 part of 'bottom_cubit.dart';
 
+// from pull request
 @immutable
 sealed class BottomState {}
 

@@ -4,6 +4,7 @@ import 'package:dashboard/presentation/cubit/bottom_cubit/bottom_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+// from pull request
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());

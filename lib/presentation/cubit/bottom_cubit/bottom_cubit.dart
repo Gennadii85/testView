@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 part 'bottom_state.dart';
 
+// from pull request
 class BottomCubit extends Cubit<BottomState> {
   BottomCubit() : super(BottomInitial());
   final String nameProfile2 = 'By, James';
