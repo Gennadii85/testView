@@ -4,12 +4,10 @@ import 'package:flutter/material.dart';
 
 part 'bottom_state.dart';
 
-// from pull request
 class BottomCubit extends Cubit<BottomState> {
   BottomCubit() : super(BottomInitial());
-  final String nameProfile2 = 'By, James';
   dynamic rename() {
-    Variables.nameProfile = nameProfile2;
+    Variables.nameProfile = Variables.nameProfile2;
     emit(BottomOnTab());
   }
 }

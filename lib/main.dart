@@ -1,10 +1,9 @@
-import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:dashboard/pages/page_1.dart';
 import 'package:dashboard/presentation/cubit/bottom_cubit/bottom_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-// from pull request
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Variables.themeColor,
+          backgroundColor: VariablesColor.themeColor,
         ),
         useMaterial3: true,
       ),

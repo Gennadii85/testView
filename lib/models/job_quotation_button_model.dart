@@ -1,4 +1,4 @@
-import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
 
 // from pull request
@@ -27,7 +27,7 @@ class JobQuotationButtonModel extends StatelessWidget {
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
           surfaceTintColor: Colors.transparent,
-          side: BorderSide(color: Variables.budgeColor),
+          side: BorderSide(color: VariablesColor.budgeColor),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),

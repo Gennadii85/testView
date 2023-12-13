@@ -1,3 +1,4 @@
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
 import 'package:dashboard/common/variables.dart';
 import 'package:dashboard/models/job_quotation_button_model.dart';
@@ -42,7 +43,7 @@ class JobQuotationCardsModel extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w600,
-                    color: Variables.jobQuotationContentTitle3Color,
+                    color: VariablesColor.jobQuotationContentTitle3Color,
                   ),
                 ),
                 Text(
@@ -50,7 +51,7 @@ class JobQuotationCardsModel extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    color: Variables.jobQuotationContentNameColor,
+                    color: VariablesColor.jobQuotationContentNameColor,
                   ),
                 ),
                 Text(
@@ -58,7 +59,7 @@ class JobQuotationCardsModel extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.w400,
-                    color: Variables.jobQuotationContentCityColor,
+                    color: VariablesColor.jobQuotationContentCityColor,
                   ),
                 ),
               ],
@@ -78,14 +79,14 @@ class JobQuotationCardsModel extends StatelessWidget {
             children: [
               JobQuotationButtonModel(
                 text: 'View Job',
-                textColor: Variables.jobQuotationContentButtonTextColor,
-                gradientColor: Variables.jobQuotationContentButtonColor,
+                textColor: VariablesColor.jobQuotationContentButtonTextColor,
+                gradientColor: VariablesColor.jobQuotationContentButtonColor,
               ),
               const SizedBox(width: 10),
               JobQuotationButtonModel(
                 text: 'Message',
-                textColor: Variables.jobQuotationContentButton2TextColor,
-                gradientColor: Variables.jobQuotationContentButton2Color,
+                textColor: VariablesColor.jobQuotationContentButton2TextColor,
+                gradientColor: VariablesColor.jobQuotationContentButton2Color,
               ),
             ],
           ),

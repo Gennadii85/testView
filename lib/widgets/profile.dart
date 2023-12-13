@@ -1,9 +1,9 @@
 import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:dashboard/widgets/frame_19.dart';
 import 'package:dashboard/widgets/image_avatar.dart';
 import 'package:flutter/material.dart';
 
-// from pull request
 class Profile extends StatelessWidget {
   const Profile({super.key});
 
@@ -12,7 +12,7 @@ class Profile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.fromLTRB(15, 20, 15, 20),
       child: Container(
-        color: Variables.themeColor,
+        color: VariablesColor.themeColor,
         height: Variables.profileWidth,
         child: const Row(
           children: [

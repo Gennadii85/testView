@@ -1,7 +1,6 @@
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
-import 'package:dashboard/common/variables.dart';
 
-// from pull request
 class NavigationModel extends StatelessWidget {
   const NavigationModel({
     Key? key,
@@ -31,7 +30,7 @@ class NavigationModel extends StatelessWidget {
           borderRadius: BorderRadius.circular(8),
         ),
         child: InkWell(
-          splashColor: Variables.budgeColor,
+          splashColor: VariablesColor.budgeColor,
           onTap: () {},
           child: Column(
             children: [
@@ -71,7 +70,7 @@ class NavigationModel extends StatelessWidget {
                           style: TextStyle(
                             fontSize: 12,
                             fontWeight: FontWeight.w400,
-                            color: Variables.navigationModelBottomString,
+                            color: VariablesColor.navigationModelBottomString,
                           ),
                         ),
                       ],

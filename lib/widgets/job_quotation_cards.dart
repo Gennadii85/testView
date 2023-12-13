@@ -1,7 +1,6 @@
 import 'package:dashboard/models/job_quotation_card_model.dart';
 import 'package:flutter/material.dart';
 
-// from pull request
 class JobQuotationCards extends StatefulWidget {
   const JobQuotationCards({super.key});
 
