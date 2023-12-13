@@ -1,4 +1,5 @@
 import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:dashboard/date/date_time.dart';
 import 'package:dashboard/widgets/job_quotation_cards.dart';
 import 'package:flutter/material.dart';
@@ -29,11 +30,11 @@ class JobQuotation extends StatelessWidget {
         const Icon(Icons.schedule),
         const SizedBox(width: 5),
         Text(
-          '${JobDate().todayDate}${JobDate().todayDate2}',
+          '${DateFormatter().todayDate}${DateFormatter().todayDate2}',
           style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.w400,
-            color: Variables.jobQuotationDateTimeRow,
+            color: VariablesColor.jobQuotationDateTimeRow,
           ),
         ),
       ],
@@ -56,7 +57,7 @@ class JobQuotation extends StatelessWidget {
           child: Text(
             Variables.jobButtonTitle,
             style: TextStyle(
-              color: Variables.budgeColor,
+              color: VariablesColor.budgeColor,
               fontSize: 16,
               fontWeight: FontWeight.w500,
             ),

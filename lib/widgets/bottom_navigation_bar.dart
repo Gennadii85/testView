@@ -1,4 +1,4 @@
-import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigationBarWidget extends StatefulWidget {
@@ -27,22 +27,22 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
       showSelectedLabels: true,
       showUnselectedLabels: true,
       selectedIconTheme: IconThemeData(
-        color: Variables.budgeColor,
+        color: VariablesColor.budgeColor,
         // size: 24,
       ),
       unselectedIconTheme: IconThemeData(
-        color: Variables.jobQuotationContentCityColor,
+        color: VariablesColor.jobQuotationContentCityColor,
         // size: 24,
       ),
       unselectedLabelStyle: TextStyle(
         fontSize: 10,
         fontWeight: FontWeight.w500,
-        color: Variables.jobQuotationContentCityColor,
+        color: VariablesColor.jobQuotationContentCityColor,
       ),
       selectedLabelStyle: TextStyle(
         fontSize: 10,
         fontWeight: FontWeight.w500,
-        color: Variables.budgeColor,
+        color: VariablesColor.budgeColor,
       ),
       currentIndex: _selectedIndex,
       onTap: _onItemTapped,
@@ -60,7 +60,7 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
           icon: IconButton(
             style: IconButton.styleFrom(
               fixedSize: Size.fromRadius(iconRadius),
-              backgroundColor: Variables.budgeColor,
+              backgroundColor: VariablesColor.budgeColor,
             ),
             onPressed: () {},
             icon: Icon(

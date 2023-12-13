@@ -1,4 +1,4 @@
-import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
 
 class AppBarDrawer extends StatelessWidget {
@@ -7,7 +7,7 @@ class AppBarDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Variables.drawerBackColor,
+      backgroundColor: VariablesColor.drawerBackColor,
       child: ListView(
         children: [
           IconButton(

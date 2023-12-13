@@ -1,8 +1,9 @@
 import 'package:badges/badges.dart';
-import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 
+// from pull request
 class AppBarLeading extends StatelessWidget {
   const AppBarLeading({super.key});
 
@@ -13,7 +14,7 @@ class AppBarLeading extends StatelessWidget {
       child: badges.Badge(
         position: badges.BadgePosition.topEnd(top: 10, end: 12),
         badgeStyle: BadgeStyle(
-          badgeColor: Variables.budgeColor,
+          badgeColor: VariablesColor.budgeColor,
           borderRadius: BorderRadius.circular(3),
         ),
         child: IconButton(

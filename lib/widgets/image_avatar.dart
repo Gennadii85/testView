@@ -1,5 +1,6 @@
 import 'package:badges/badges.dart';
 import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:dashboard/presentation/cubit/bottom_cubit/bottom_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
@@ -15,7 +16,7 @@ class ImageAvatar extends StatelessWidget {
       child: badges.Badge(
         badgeContent: Icon(
           Icons.circle,
-          color: Variables.budgeColor,
+          color: VariablesColor.budgeColor,
           size: 11,
         ),
         position: badges.BadgePosition.topStart(
@@ -27,7 +28,7 @@ class ImageAvatar extends StatelessWidget {
             color: Colors.white,
             width: 4,
           ),
-          badgeColor: Variables.budgeColor,
+          badgeColor: VariablesColor.budgeColor,
           borderRadius: BorderRadius.circular(1),
         ),
         child: CircleAvatar(
@@ -44,7 +45,7 @@ class ImageAvatar extends StatelessWidget {
               onPressed: () => context.read<BottomCubit>().rename(),
               icon: Icon(
                 Icons.edit_outlined,
-                color: Variables.budgeColor,
+                color: VariablesColor.budgeColor,
               ),
             ),
           ),

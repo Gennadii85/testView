@@ -1,4 +1,4 @@
-import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:dashboard/models/navigation_model.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +24,7 @@ class Navigation extends StatelessWidget {
               Flexible(
                 child: NavigationModel(
                   icon: Icons.task_outlined,
-                  iconColor: Variables.budgeColor,
+                  iconColor: VariablesColor.budgeColor,
                   topString: 'My Jobs',
                   bottomString: '10 jobs',
                   color: null,
@@ -33,7 +33,7 @@ class Navigation extends StatelessWidget {
               Flexible(
                 child: NavigationModel(
                   icon: Icons.update,
-                  iconColor: Variables.budgeColor,
+                  iconColor: VariablesColor.budgeColor,
                   topString: 'Pending Jobs',
                   bottomString: '5 jobs',
                   color: null,
@@ -46,7 +46,7 @@ class Navigation extends StatelessWidget {
                   topString: 'Find a Job',
                   bottomString: '',
                   textColor: Colors.white,
-                  color: Variables.budgeColor,
+                  color: VariablesColor.budgeColor,
                 ),
               ),
             ],

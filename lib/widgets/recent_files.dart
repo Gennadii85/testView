@@ -1,4 +1,5 @@
 import 'package:dashboard/common/variables.dart';
+import 'package:dashboard/common/variables_color.dart';
 import 'package:flutter/material.dart';
 
 class RecentFiles extends StatelessWidget {
@@ -31,7 +32,7 @@ class RecentFiles extends StatelessWidget {
           width: 109,
           height: 123,
           child: Card(
-            color: Variables.navigationModelColor,
+            color: VariablesColor.navigationModelColor,
             child: Column(
               children: [
                 Padding(
@@ -98,7 +99,7 @@ class RecentFiles extends StatelessWidget {
           child: Text(
             Variables.jobButtonTitle,
             style: TextStyle(
-              color: Variables.budgeColor,
+              color: VariablesColor.budgeColor,
               fontSize: 16,
               fontWeight: FontWeight.w500,
             ),
